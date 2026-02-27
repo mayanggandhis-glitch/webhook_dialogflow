@@ -16,6 +16,17 @@ const jadwal = {
   ],
   rabu: [
     { waktu: "07.30", mapel: "Bahasa Inggris" }
+  ],
+  kamis: [
+    { waktu: "07.30", mapel: "KKA" },
+    { waktu: "08.10", mapel: "DDA" },
+    { waktu: "08.50", mapel: "Agama" }
+  ],
+  
+  jumat: [
+    { waktu: "07.30", mapel: "Iformatika" },
+    { waktu: "08.10", mapel: "Bahasa Inggris" },
+    { waktu: "08.50", mapel: "Ekstrakulikuler" }
   ]
 };
 
