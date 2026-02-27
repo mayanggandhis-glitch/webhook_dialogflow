@@ -6,16 +6,22 @@ app.use(express.json());
 // DATABASE JADWAL
 const jadwal = {
   senin: [
-    { waktu: "07.30", mapel: "Matematika" },
-    { waktu: "08.10", mapel: "PJOK" },
-    { waktu: "08.50", mapel: "Bahasa Indonesia" }
+    { waktu: "08.10-09.30", mapel: "Bahasa Bali" },
+    { waktu: "09.30-10.10", mapel: "IPAS" },
+    { waktu: "10.10-10.40", mapel: "Bahasa Indonesia" }
   ],
   selasa: [
-    { waktu: "07.30", mapel: "IPA" },
-    { waktu: "08.10", mapel: "IPS" }
+    { waktu: "08.10-09.30", mapel: "PJOK" },
+    { waktu: "09.30-10.10", mapel: "DDA" }
+    { waktu: "10.10-10.40", mapel: "Matematika" }
   ],
   rabu: [
-    { waktu: "07.30", mapel: "Bahasa Inggris" }
+    { waktu: "08.10-09.30", mapel: "PKN" }
+    { waktu: "09.30-10.10", mapel: "Matematika" }
+    { waktu: "10.10-10.40", mapel: "Seni Budaya" }
+    { waktu: "10.40-12.00", mapel: "Sejarah" }
+    { waktu: "12.00-13.20", mapel: "BK" }
+    { waktu: "14.20-15.40", mapel: "bAHASA iNDONESIA" }
   ],
   kamis: [
     { waktu: "07.30", mapel: "KKA" },
